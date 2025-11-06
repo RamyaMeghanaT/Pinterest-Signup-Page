@@ -1,0 +1,81 @@
+.parent
+{
+    font-family:  sans-serif;
+    padding: 15px;
+    justify-content: space-around;
+    align-items: end;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.parent input
+{
+    padding: 15px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 15px;
+    border: 0.5px solid;
+}
+
+.formm
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.parent
+{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-left: 25%;
+    /* border: 0.7 solid pink; */
+    padding: 25px;
+    box-shadow: 2px 3px 15px grey;
+}
+
+.parent img
+{
+    align-content: center;
+}
+
+.parent button
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  gap: 10px;
+  width: 300px;
+  height: 45px;
+  border-radius: 25px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  position: relative;
+}
+#one
+{
+    background-color: red;
+    color: white;
+}
+#two
+{
+    background-color: #1877f2;;
+    color: white;
+}
+#three
+{
+    background-color: white;
+}
+.line
+{
+  background-color: grey;
+}
+.parent a
+{
+  text-decoration: none;
+  color: black;
+}
+
